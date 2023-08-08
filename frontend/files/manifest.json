@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "ITC group project",
+    "description": "class assistant for the new students.",
+    "version": "1.0",
+    "action": {
+      "default_icon": "default_icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+      ],
+    "host_permissions": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+          }
+
+    ]
+  }

@@ -1,0 +1,25 @@
+.LessonTags {
+    padding: 5px;
+    border: 2px #027DC2 solid;
+    background-color: transparent;
+    width: 250px;
+    height: 120px;
+    z-index: 99;
+    display: flex;
+    gap: 10px;
+}
+
+.LessonTags .hashtag {
+    font-size: 0.7rem !important;
+    min-width: 70px;
+    height: 25px;
+    outline: 0;
+    border: 0;
+    color: #027DC2;
+    border: none;
+    background-color: transparent;
+}
+
+.LessonTags .hashtag:hover {
+    color: #055380;
+}

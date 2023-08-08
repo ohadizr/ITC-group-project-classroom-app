@@ -1,0 +1,100 @@
+
+get http://localhost:8000/
+
+
+
+###
+get http://localhost:8000/hashtags
+Content-Type: application/json
+
+###
+get http://localhost:8000/topics
+Content-Type: application/json
+###
+get http://localhost:8000/lessons
+Content-Type: application/json
+
+###
+get http://localhost:8000/topic/NTk4NTY4MTAwNzU1
+Content-Type: application/json
+###
+get http://localhost:8000/hashtags
+Content-Type: application/json
+
+###
+
+get http://localhost:8000/users
+Content-Type: application/json
+
+###
+
+get http://localhost:8000/admins
+Content-Type: application/json
+
+###
+get http://localhost:8000/user/hBtwyrYLP0gMRKXNcV7A7TCM7fo2"
+Content-Type: application/json
+
+###
+post http://localhost:8000/createuser
+Content-Type: application/json
+Accept: application/json
+
+  {
+  "uid": "YEGqxl5LoPfVvWwAv1I9CkX5aXF2",
+  "name": "karen",
+  "email": "karen@itc.com",
+  "isAdmin": true,
+  "course_google_no": "NTM3MzQxMzg4MDMz"
+  }
+
+
+###
+post https://vozm.onrender.com/createHashTag
+Content-Type: application/json
+Accept: application/json
+
+  {
+  "hash_tag_name": "TEST POST DELETE",
+  "hash_tag_content": 
+    "Web Dev Simplified - https://www.youtube.com/watch?v=FgnxcUQ5vho&ab_channel=WebDevSimplified MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+  "course_google_no":"NTM3MzQxMzg4MDMz"
+  }
+  
+
+
+###
+post http://localhost:8000/createTopic
+Content-Type: application/json
+Accept: application/json
+
+  {
+
+  }
+
+###
+get http://localhost:8000/questions
+Content-Type: application/json
+
+###
+post http://localhost:8000/createQuestion
+Content-Type: application/json
+Accept: application/json
+
+  {
+        "q_title": "q_title test3",
+        "q_content": "q_content test3",
+        "user_id": "642334786cb7e17d38eae15f",
+        "course_google_no": "NTM3MzQxMzg4MDMz"
+  }
+
+###
+delete http://localhost:8000/DeleteQuestion/642336b3df26ef1e9cdc968e
+Content-Type: application/json
+Accept: application/json
+
+###
+get http://localhost:8000/questions/642334786cb7e17d38eae15f
+Content-Type: application/json
+Accept: application/json
+

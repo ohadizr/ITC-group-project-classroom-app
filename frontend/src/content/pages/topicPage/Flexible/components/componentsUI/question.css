@@ -1,0 +1,113 @@
+.container {
+    border: 0.3rem solid #027DC2;
+    padding: 1rem 0.8rem;
+    row-gap: 0.8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* .questionsSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+} */
+div.question {
+    width: 100%;
+    height: auto;
+    border: 1px solid #23A6F0;
+    padding: 0 0.5rem 1rem 0.5rem;
+    /* background-color: aquamarine; */
+}
+
+div.question .header{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* grid-template-columns: 33%, 33%, 33%; */
+}
+
+.header .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid salmon; */
+}
+
+.header .title {
+    display: flex;
+    justify-content: left;
+    /* border: 3px solid salmon; */
+}
+.header .title div.avatar {
+    width: 100%;
+    /* border: 3px solid red; */
+    height: 1.2rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(203, 200, 200);
+    padding: 0.5rem;
+    /* border: 3px solid salmon; */
+}
+.topicsListForSearchToggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #23A6F0;
+    border-left: none;
+    /* border-bottom: none; */
+    width: 40%;
+    height: 2rem;
+}
+.searchBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #23A6F0;
+    color: #fff;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0 10% 10% 0;
+    background-color: #23A6F0;
+    cursor: pointer;
+}
+.searchInput{
+    width: 40%;
+    height: 2rem;
+    border: 1px solid #23A6F0;
+    border-radius: 10% 0 0 10%;
+}
+.serach_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+.questionComponentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #23A6F0;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+.questionComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #23A6F0;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    margin-bottom: 0.5rem;
+}

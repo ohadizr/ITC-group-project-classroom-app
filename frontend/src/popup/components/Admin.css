@@ -1,0 +1,332 @@
+.adminContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.adminTitle{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.pageCount{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 0 1rem 0 0rem;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.topNavAdmin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 2rem;
+}
+.adminMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.circularBtn{
+  width: 35px;
+  height: 10px;
+  color: #fff;
+  /* border-radius: 30px; */
+  /* padding: 10px; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgb(197, 199, 199) 0%, rgb(57, 58, 59) 100%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  border: none;
+}
+.circularBtnActive{
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+}
+.circularBtnHidingActive{
+  color : rgba(0,172,238,1)
+}
+.arrowBtn{
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  border-radius: 30px;
+  /* padding: 10px; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgb(197, 199, 199) 0%, rgb(57, 58, 59) 100%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  border: none;
+}
+
+.arrowBtnActive{
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+} 
+.arrowBtnHidingActive{
+  color : rgba(0,172,238,1)
+}
+
+
+.customBtn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.borderBtn {
+  background: rgb(98, 102, 104);
+background: linear-gradient(0deg, rgb(197, 199, 199) 0%, rgb(57, 58, 59) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.borderBtn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.borderBtn:before,
+.borderBtn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.borderBtn:before {
+  height: 0%;
+  width: 2px;
+}
+.borderBtn:after {
+  width: 0%;
+  height: 2px;
+}
+.borderBtn:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.borderBtn:hover:before {
+  height: 100%;
+}
+.borderBtn:hover:after {
+  width: 100%;
+}
+.borderBtn span:hover{
+   color: rgba(2,126,251,1);
+}
+.borderBtn span:before,
+.borderBtn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.borderBtn span:before {
+  width: 2px;
+  height: 0%;
+}
+.borderBtn span:after {
+  width: 0%;
+  height: 2px;
+}
+.borderBtn span:hover:before {
+  height: 100%;
+}
+.borderBtn span:hover:after {
+  width: 100%;
+}
+
+
+
+.activeBorderBtn{
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  /* padding: 10px 25px; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+}
+.activeBorderBtn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* .activeBorderBtn:before,
+.activeBorderBtn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+} */
+.activeBorderBtn:before {
+  height: 0%;
+  width: 2px;
+}
+.activeBorderBtn:after {
+  width: 0%;
+  height: 2px;
+}
+.activeBorderBtn:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.activeBorderBtn:hover:before {
+  height: 100%;
+}
+.activeBorderBtn:hover:after {
+  width: 100%;
+}
+.activeBorderBtn span:hover{
+   color: rgba(2,126,251,1);
+}
+.activeBorderBtn span:before,
+.activeBorderBtn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.activeBorderBtn span:before {
+  width: 2px;
+  height: 0%;
+}
+.activeBorderBtn span:after {
+  width: 0%;
+  height: 2px;
+}
+.activeBorderBtn span:hover:before {
+  height: 100%;
+}
+.activeBorderBtn span:hover:after {
+  width: 100%;
+}
+
+.nakedBtn{
+    background-color: transparent;
+    border: none;
+    color: #3B3C3E;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.activeNakedBtn{
+    background-color: transparent;
+    color: #6D9BE3;
+    opacity: 1;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.SignOut{
+    background-color: transparent;
+    border: none;
+    color: #3B3C3E;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    justify-content: end;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userRoll{
+    font-size: .8rem;
+    font-weight: bold;
+    color: #3b3c3e87;
+    margin: 0;
+    align-self: right;
+}
+.userRollPlacment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: right;
+    width: 50%;
+}
+
+.userTitle{
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}

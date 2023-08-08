@@ -1,0 +1,90 @@
+.createHashTag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+.createHashTagForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.inputAreaAdminTitles{
+    width: 50%;
+    border: 0.1rem solid #6D9BE3;
+    /* create max input side */
+
+}
+.inputAreaAdminDetails{
+    width: 80%;
+    height: 1.5rem;
+    border: 0.1rem solid #6D9BE3;
+    /* create max input side */
+
+}
+
+.added_content_arr{
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;
+    height: 5rem;
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 0.1rem solid #3B3C3E;
+    margin: 0;
+    padding: 0;
+}
+
+.added_content_arr  ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.submitBtn{
+    background-color: transparent;
+    border: 0.1rem solid #6D9BE3;
+    color: #6D9BE3;
+    opacity: 1;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.submitBtn:hover{
+font-size: bold;
+}
+
+.contentAddBtn{
+    width: 50%;
+    color: #6D9BE3;
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: 0.1rem solid #6D9BE3;
+    background-color: transparent;
+}
+.contentAddBtn:hover{
+    font-weight: bold;
+}
+.contentAddBtn:active{
+    font-weight: normal;
+}

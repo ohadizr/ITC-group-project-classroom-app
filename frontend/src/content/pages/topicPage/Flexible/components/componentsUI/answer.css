@@ -1,0 +1,42 @@
+.answers_container{
+    position: relative;
+    width:100%;
+    padding: 0.5rem;
+    margin: 0%;
+    border: none;
+}
+
+div.answer {
+    border: 1px solid #23A6F0;
+    padding: 0 0.5rem 1rem 0.5rem;
+    /* background-color: aquamarine; */
+}
+
+div.answer .header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* grid-template-columns: 33%, 33%, 33%; */
+}
+
+.header .details {
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid salmon; */
+}
+
+.header .title {
+    display: flex;
+    justify-content: left;
+    /* border: 3px solid salmon; */
+}
+.header .title div.avatar {
+    /* border: 3px solid red; */
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(203, 200, 200);
+
+    /* border: 3px solid salmon; */
+}

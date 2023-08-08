@@ -1,0 +1,15 @@
+.SignOut{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signOutBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.542);
+}

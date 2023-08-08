@@ -1,0 +1,9 @@
+package.lock.json
+node_moules/*
+.idea/*
+request.rest
+.env
+
+
+# images/*
+!images/.gitkeep

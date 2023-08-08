@@ -1,0 +1,58 @@
+
+.qa-modal{
+    position: relative;
+    width: 15vw;
+    height: 600px;
+    padding: 0.5rem;
+    margin: 0%;
+    border: none;
+    
+}
+.question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.qa-modal .container {
+    border: 0.3rem solid #027DC2;
+    padding: 1rem 0.8rem;
+    display: grid;
+    row-gap: 0.8rem;
+    position: relative;
+}
+
+div.qa-modal .header h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+
+}
+
+div.qa-modal .header div.bar {
+    /* background-color: #23A6F0; */
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0.3rem 0.3rem 0px;
+}
+
+div.qa-modal div.bar input {
+    border: 1px solid #E6E6E6;
+    border-radius: 0.3rem 0 0 0.3rem;
+    flex: 40%;
+}
+
+div.qa-modal div.bar select {
+    border: 1px solid #E6E6E6;
+    flex: 40%;
+}
+
+div.qa-modal div.bar button.search {
+    background-color: #23A6F0;
+    width: 4rem;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 0.3rem 0.3rem 0px;
+
+}
+
